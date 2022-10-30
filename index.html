@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akbar Ali</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="./app.js"></script>
+  </head>
+  <body>
+    <h1>Select and Option and Press the button to get a movie</h1>
+
+    <div>
+      <label for="mainselect">Click For Movie List</label>
+      <select name="Movies" id="mainselect">
+        <optgroup label="Movies">
+            <option value="The lego batman movie">The Batman</option>
+            <option value="Thor">Thor</option>
+            <option value="jkr19">Joker</option>         
+        </optgroup>
+      </select>
+      <button onclick="getMovies1()">Click me</button>
+        <div id="datatag">
+
+          
+      </div>
+    </div>
+  </body>
+</html>
