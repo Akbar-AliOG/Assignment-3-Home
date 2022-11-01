@@ -3,11 +3,13 @@ const test = async () => {
 
   console.log(res);
   
-  let name = document.createElement("p");
+  const name = document.createElement("p");
   
   name.innerHTML = `${res.data.overview}`;
   
   console.log(name)
+
+  
 }
 
 test();
