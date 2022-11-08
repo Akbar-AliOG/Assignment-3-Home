@@ -1,12 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
 body {
-    background-color: black;
+    background-color: rgb(11, 11, 11);
     color: white;
+    font-family: 'Abel', sans-serif;
+
 }
 
-#para1{
-    color: aqua;
+#title{
+    font-family: 'Chewy', cursive;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(202, 101, 202);
 }
 
-#title{ 
-    size: ;
+
+#image {
+    float: left;
+    border: 2px solid rgb(235, 229, 229);
+    margin-right: 10px;
+}
+
+#trailer{
+    size: 100px;
 }
